@@ -11,13 +11,13 @@ function Header(){
             <nav className={styles.navigation}>
                 <ul className={styles.navigation_ul}>
                     <li>
-                        <a href="#">
+                        <a href="#" alt="Parceiros">
                             <span className={styles.txt_link}>Parceiros</span>
                             <span className={styles.icon}><AiOutlineDown/></span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" alt="Ajuda">
                             <span className={styles.txt_link}>Ajuda</span>
                             <span className={styles.icon}><AiOutlineDown/></span>
                         </a>
@@ -25,10 +25,10 @@ function Header(){
                 </ul>
             </nav>
             <div className={styles.entrar_cadastrar_button}>
-                <a href="#">
+                <a href="#" alt="Entrar">
                     <div className={styles.entrar_button}>Entrar</div>
                 </a>
-                <a href="#">
+                <a href="#" alt="Cadastrar">
                     <div className={styles.cadastrar_button}>Cadastrar</div>
                 </a>
             </div>
