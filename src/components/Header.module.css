@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    font-weight: 400;
+}
+
+.logo {
+    padding-left: 5vw;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 5vw;
+}
+
+.entrar_cadastrar_button {
+    padding-right: 5vw;
+}
+
+.navigation_ul {
+    list-style: none;
+    column-gap: 5vw;
+    display: flex;
+    font-size: 20px;
+}
+
+.navigation_ul a { 
+    color: black; 
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+    padding-left: 10px;
+}
+
+.entrar_cadastrar_button { display: flex; }
+
+.entrar_button, .cadastrar_button {
+    width: 140px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.entrar_button {
+    background-color: #FFF;
+    border: solid 3px #80141E;
+    border-radius: 12px;
+}
+
+a .entrar_button { 
+    color: #80141E;
+}
+
+.cadastrar_button {
+    background-color: #80141E;
+    border: solid 3px #80141E;
+    border-radius: 12px;
+    margin-left: 0.5vw;
+}
+
+a .cadastrar_button{ 
+    color: #FFF;
+}

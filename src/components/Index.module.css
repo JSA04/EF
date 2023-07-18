@@ -1,0 +1,32 @@
+.menu_form {
+    background-image: url("https://via.placeholder.com/1920x820");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 820px;
+    display: flex;
+    align-items: center;
+}
+
+.form_cadastro {
+    position: relative;
+    left: 5vw;
+    height: 640px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.titulo_form {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.info, .field, .input {
+    text-align: start;
+    width: 100%;
+}
