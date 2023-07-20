@@ -1,36 +1,38 @@
-import styles from './Header.module.css';
-import logo from './logo.svg';
 import { AiOutlineDown } from 'react-icons/ai'
+import { Link } from 'react-router-dom'; 
+
+import styles from './static/css/Header.module.css';
+import logo from './static/media/logo.svg';
 
 function Header(){
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
-                <img className="logo_image_header" alt="Logo EqualityFood" src={logo}/>                 
+                <Link to="/"><img className="logo_image_header" alt="Logo EqualityFood" src={logo}/></Link>
             </div>
             <nav className={styles.navigation}>
                 <ul className={styles.navigation_ul}>
                     <li>
-                        <a href="#">
+                        <Link to="/parceiros">
                             <span className={styles.txt_link}>Parceiros</span>
                             <span className={styles.icon}><AiOutlineDown/></span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">
+                        <Link to="/ajuda">
                             <span className={styles.txt_link}>Ajuda</span>
                             <span className={styles.icon}><AiOutlineDown/></span>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
             <div className={styles.entrar_cadastrar_button}>
-                <a href="#">
+                <Link to="/entrar">
                     <div className={styles.entrar_button}>Entrar</div>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/cadastrar">
                     <div className={styles.cadastrar_button}>Cadastrar</div>
-                </a>
+                </Link>
             </div>
         </header>
     );  

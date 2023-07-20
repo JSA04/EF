@@ -1,11 +1,15 @@
 header {
+    background-color: #FFF;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
     align-items: center;
     font-weight: 400;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .logo {
@@ -56,6 +60,13 @@ header {
     background-color: #FFF;
     border: solid 3px #80141E;
     border-radius: 12px;
+    transition: 200ms;
+}
+
+.entrar_button:hover {
+    background-color: #f7dddd;
+    border: solid 3px #80141E;
+    transition: 200ms;
 }
 
 a .entrar_button { 
@@ -67,6 +78,14 @@ a .entrar_button {
     border: solid 3px #80141E;
     border-radius: 12px;
     margin-left: 0.5vw;
+    transition: 200ms;
+}
+
+.cadastrar_button:hover {
+    transition: 200ms;
+    background-color: #944048;
+    border: solid 3px #944048;
+
 }
 
 a .cadastrar_button{ 
