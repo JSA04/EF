@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 
 import Parceiros from './pages/parceiros/Parceiros.jsx';
-import App from './App.jsx';
+import App from './App.js';
 import ErrorPage from './pages/ErrorPage.jsx'
 
 const router = createBrowserRouter([
