@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/EqualityFood/static/css/main.5090996c.css",
+    "main.js": "/EqualityFood/static/js/main.d87f62ff.js",
+    "static/js/787.c1112931.chunk.js": "/EqualityFood/static/js/787.c1112931.chunk.js",
+    "static/media/logo.svg": "/EqualityFood/static/media/logo.ee8bff5b750ce29335d23541731aac28.svg",
+    "static/media/background_forms.svg": "/EqualityFood/static/media/background_forms.d96fcfd6435f93406c3f.svg",
+    "static/media/topico4.svg": "/EqualityFood/static/media/topico4.919ee85460023855eddb36a81daad8a8.svg",
+    "static/media/topico2.svg": "/EqualityFood/static/media/topico2.9983b2bb4707ea144b4955a9143f0365.svg",
+    "static/media/topico1.svg": "/EqualityFood/static/media/topico1.2965c577ff7d6f2faaac91194480f480.svg",
+    "static/media/topico3.svg": "/EqualityFood/static/media/topico3.d48a5153d12a9e45dac1893ac270bff8.svg",
+    "static/media/ebup.svg": "/EqualityFood/static/media/ebup.52902050bb53406baf2234ae7788ff48.svg",
+    "static/media/ebdw.svg": "/EqualityFood/static/media/ebdw.bce39c66cbdf875d503d344a126dd41b.svg",
+    "index.html": "/EqualityFood/index.html",
+    "static/media/eodw.svg": "/EqualityFood/static/media/eodw.4ec685dde7ec4d7e0a391848cd29340d.svg",
+    "static/media/eoup.svg": "/EqualityFood/static/media/eoup.f7e8b59138c6fa031602593ef9dc1406.svg",
+    "main.5090996c.css.map": "/EqualityFood/static/css/main.5090996c.css.map",
+    "main.d87f62ff.js.map": "/EqualityFood/static/js/main.d87f62ff.js.map",
+    "787.c1112931.chunk.js.map": "/EqualityFood/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5090996c.css",
+    "static/js/main.d87f62ff.js"
+  ]
+}
