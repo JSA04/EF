@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EqualityFood/static/css/main.5090996c.css",
-    "main.js": "/EqualityFood/static/js/main.d87f62ff.js",
+    "main.css": "/EqualityFood/static/css/main.0d21d9d2.css",
+    "main.js": "/EqualityFood/static/js/main.7663cee8.js",
     "static/js/787.c1112931.chunk.js": "/EqualityFood/static/js/787.c1112931.chunk.js",
     "static/media/logo.svg": "/EqualityFood/static/media/logo.ee8bff5b750ce29335d23541731aac28.svg",
     "static/media/background_forms.svg": "/EqualityFood/static/media/background_forms.d96fcfd6435f93406c3f.svg",
@@ -14,12 +14,12 @@
     "index.html": "/EqualityFood/index.html",
     "static/media/eodw.svg": "/EqualityFood/static/media/eodw.4ec685dde7ec4d7e0a391848cd29340d.svg",
     "static/media/eoup.svg": "/EqualityFood/static/media/eoup.f7e8b59138c6fa031602593ef9dc1406.svg",
-    "main.5090996c.css.map": "/EqualityFood/static/css/main.5090996c.css.map",
-    "main.d87f62ff.js.map": "/EqualityFood/static/js/main.d87f62ff.js.map",
+    "main.0d21d9d2.css.map": "/EqualityFood/static/css/main.0d21d9d2.css.map",
+    "main.7663cee8.js.map": "/EqualityFood/static/js/main.7663cee8.js.map",
     "787.c1112931.chunk.js.map": "/EqualityFood/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5090996c.css",
-    "static/js/main.d87f62ff.js"
+    "static/css/main.0d21d9d2.css",
+    "static/js/main.7663cee8.js"
   ]
 }
