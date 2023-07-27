@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 
-import Parceiros from './pages/parceiros/Parceiros.jsx';
+import Cadastro from './pages/cadastro_cliente/Cadastro.jsx';
 import App from './App.js';
 import ErrorPage from './pages/ErrorPage.jsx'
 
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage/>,
     children: [
       {
-        path: "/parceiros",
-        element: <Parceiros/>
+        path: "/cadastrar",
+        element: <Cadastro/>
       }
     ]
   },

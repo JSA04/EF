@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import styles from "./FormParceiro.module.css"
+import styles from "./Form.module.css"
 
-function FormParceiro() {
+function Form() {
 
     function cadastrarUsuario(e) {
         e.preventDefault()
@@ -20,7 +20,8 @@ function FormParceiro() {
     const [conc, setConc] = useState();
 
     return (
-        <div className={styles.menu_form}>
+        <div className={styles.background_form}>
+            <div className={`content ${styles.form_content}`}>
                 <form className={styles.form_cadastro} onSubmit={cadastrarUsuario}>
                     <div className={styles.titulo_form}>
                         Cadastre-se
@@ -58,7 +59,8 @@ function FormParceiro() {
                     </div>
                 </form>
             </div>
+        </div>
     )
 }
 
-export default FormParceiro;
+export default Form;
