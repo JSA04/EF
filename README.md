@@ -1,3 +1,0 @@
-### Projeto EqualityFood
-
-Projeto EqualityFood
