@@ -45,9 +45,9 @@
 /* --------------------------------------------------------- */
 
 #ebup {position: absolute; top: 20px; left: 20px; }
-#eoup {position: absolute; top: 0px; right: 0; }
+#eoup {position: absolute; top: 0; right: 0; }
 #ebdw {position: absolute; bottom: 20px; right: 20px; }
-#eodw {position: absolute; bottom: 0px; left: 0; }
+#eodw {position: absolute; bottom: 0; left: 0; }
 
 @media screen and (max-width: 1300px) {
     #ebdw, #ebup {
@@ -90,7 +90,7 @@
     width: 100px;
     height: 100px;
     position: relative;
-    top: 18%;
+    top: 15%;
     margin: auto;
 }
 
@@ -107,8 +107,15 @@
 }
 
 @media screen and (max-width: 700px) {
-    .vantagens_tit { font-size: 50px; transition: 100ms; }
+    .vantagens_tit { font-size: 50px; transition: 1ms; }
     .topico_img { width: 300px; height: 300px; transition: 1s;}
-    .topico_img img { width: 200px; height: 200px;}
+    .topico_img img { width: 200px; height: 200px; transition: 1s;}
     .topico p { font-size: 30px; font-weight: 500;}
+}
+
+@media screen and (max-width: 360px) {
+    .vantagens_tit { font-size: 40px; transition: 1s; }
+    .topico_img { width: 200px; height: 200px; transition: 1s;}
+    .topico_img img { width: 120px; height: 120px; transition: 1s;}
+    .topico p { font-size: 20px;}
 }

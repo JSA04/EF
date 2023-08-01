@@ -36,17 +36,17 @@ function Form() {
                         <div className={styles.field}>
                             <label htmlFor="cpf_field">CPF: </label><br/>
                             <input name="cpf_field" className={styles.input} placeholder="123.456.789-10"
-                            onChange={(e => setCpf(e.target.value))}/>
+                            onChange={(e) => setCpf(e.target.value)}/>
                         </div>
                         <div className={styles.field}>
                             <label htmlFor="tel_field">Telefone: </label><br/>
                             <input type="tel" name="tel_field" className={styles.input} placeholder="(00) 912345-6789"
-                            onChange={(e => setTel(e.target.value))}/>
+                            onChange={(e) => setTel(e.target.value)}/>
                         </div>
                         <div className={styles.field}>
                             <label htmlFor="email_field">E-mail: </label><br/>
                             <input type="email" name="email_field" className={styles.input} placeholder="email@dominio.com.br"
-                            onChange={(e => setEmail(e.target.value))}/>
+                            onChange={(e) => setEmail(e.target.value)}/>
                         </div>
                     </div>
                     <div className={styles.termo_condicoes}>

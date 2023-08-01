@@ -5,7 +5,7 @@
     background-position: top center 35%;
     height: 820px;
     width: 100%;
-    z-index: 998;
+    z-index: 801;
 }
 
 @media screen and (max-width: 1800px){
@@ -46,7 +46,7 @@
     padding: 30px;
     border-radius: 5px;
     border: 1px solid lightgray;
-    z-index: 997;
+    z-index: 800;
 }
 
 .info, .field, .input, .submit {
@@ -63,6 +63,11 @@
 .titulo_form {
     font-size: 45px;
     font-weight: 500;
+    transition: .5s;
+}
+
+@media screen and (max-width: 380px) {
+    .titulo_form{font-size: 35px; transition: .5s;}
 }
 
 /* --------------------------------------------------------- */
